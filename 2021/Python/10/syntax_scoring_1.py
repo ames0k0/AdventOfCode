@@ -38,5 +38,10 @@ def main():
 
   print(s)
 
+class Indexes:
+  K=4 if (not True) else 3
+
 if __name__ == '__main__':
-  main()
+  # main()
+  i = Indexes()
+  print(i.K)
